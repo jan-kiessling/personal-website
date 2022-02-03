@@ -35,3 +35,17 @@ a {
   margin: 5px;
   display: inline;
 }
+.navigation {
+  font-family: fantasy, serif;
+  border: 10px aqua;
+  background-color: beige;
+  border-radius: 1px;
+  padding: 30px;
+  display: flex;
+  height: 70%;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  gap: 10px;
+  justify-content: end;
+  align-items: stretch;
+}
