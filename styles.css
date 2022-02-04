@@ -1,51 +1,70 @@
+/* --------------------universal selectors and fonts------------------------*/
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap");
 
 * {
   box-sizing: border-box;
 }
-.body {
-  font-family: "Times New Roman", Times, serif;
-  margin: 20px;
-  padding: 10px;
-  background-color: aqua;
-}
 
-.p {
-  font-size: 1.2rem;
-  color: blue;
+/* --------------------selectors ------------------------*/
+h1 {
+  font-family: fantasy;
+  display: flex;
+  justify-content: center;
 }
 
 figure {
   color: chocolate;
   font-family: fantasy, serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+  align-items: center;
 }
-
+/*
 figcaption {
   position: relative;
   left: 75px;
 }
+*/
+
+main {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin: 0 10% 0 10%;
+}
+
+/* ----------------------classes------------------------*/
 
 .special-font {
   font-family: fantasy;
+  padding: 10px;
+  background-color: blue;
 }
 
-a {
-  border: 3px solid mintcream;
-  padding: 5px 10px;
-  margin: 5px;
-  display: inline;
-}
-.navigation {
+.navigation-header {
   font-family: fantasy, serif;
-  border: 10px aqua;
+  border: 5px solid chocolate;
+  border-radius: 50px aqua;
   background-color: beige;
-  border-radius: 1px;
   padding: 30px;
+
   display: flex;
-  height: 70%;
   flex-direction: row;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   gap: 10px;
-  justify-content: end;
-  align-items: stretch;
+  justify-content: space-evenly;
+  /* align-items: stretch; */
+}
+.navigation-header-links {
+  border: 3px solid mintcream;
+  padding: 10px;
+  border-radius: 10%;
+  margin: ;
+  display: inline;
 }
