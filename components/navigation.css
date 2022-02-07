@@ -1,4 +1,4 @@
-.navigation-header {
+.nav__navigation-header {
   font-family: poppins;
   font-weight: light 300;
   border: 3px solid chocolate;
@@ -13,7 +13,6 @@
   justify-content: space-evenly;
   /* align-items: stretch; */
 }
-/*  */
 
 .navigation-header-links {
   border: 3px solid mintcream;
