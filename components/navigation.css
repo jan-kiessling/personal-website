@@ -14,10 +14,12 @@
   align-items: center;
 }
 
-.navigation-header-links {
+.navigation-header__internal-links {
   border: 3px solid mintcream;
   padding: 10px;
   border-radius: 10%;
   margin: ;
   display: inline;
 }
+
+/* spezielles styling , dann modifier .navigation-header__internal-links--bluelink  */
